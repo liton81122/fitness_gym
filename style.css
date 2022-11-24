@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#fitness-power{
+    font-size: 50px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.menu-item{
+    display: flex;
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.menu-item li{
+    padding: 20px;
+    list-style-type: none;
+}
+.menu-item li:hover{
+    color: rgb(255, 38, 0);
+    cursor: pointer;
+}
+.text{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+#join-today{
+    font-size: 60px;
+}
+.learn-more{
+    background-color: rgb(255, 38, 0);
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.learn-more:hover{
+    background-color: blue;
+}
+.flexible-container-1{
+    display: flex;
+    background-color: darkgray;
+    margin-bottom: 50px;
+}
+.with img{
+    width: 100%;
+
+}
+#take-risk{
+    text-align: center;
+    font-size: 50px;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.icon{
+    width: 30%;
+}
+.justify{
+    text-align: justify;
+}
+.flexible-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.background-color{
+background-color: black;
+margin-bottom: 100px;
+}
+#about-us{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.about-images{
+    display: flex;
+}
+.about-images img{
+    padding: 20px;
+    height: 500px;
+    margin-top: 50px;
+    transform: skewY(-15deg);
+}
+.about-images{
+    margin-left: 50px;
+    border-top: 2px solid white
+}
+.flexible-container-2{
+    display: flex;
+    margin-top: 50px;
+}
+#experience-area{
+    font-size: 50px;
+}
+.tex-container{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    border-top: 2px solid rgb(255, 38, 0);
+}
+.about-more{
+    text-decoration: none;
+    background-color: rgb(255, 38, 0);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.about-more:hover{
+    background-color: blue;
+}
+.workout-inquiry{
+    width: 700px;
+    height: 200px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.font-size{
+    font-size: 30px;
+    padding: 15px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+}
+.chat{
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.chat:hover{
+    background-color: blue;
+    color: white;
+}
+#our-service{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+.services-border{
+    width: 350px;
+    box-shadow: 10px 10px 40px;
+    border-radius: 5px;
+}
+.services-border img{
+    width: 100%;
+    border-radius: 5px;
+}
+.tex-padding{
+    padding: 20px;
+}
+.fitness-color{
+    color: orangered;
+}
+.join-today{
+    text-decoration: none;
+    color: orangered;
+}
+.flexible-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+hr{
+    margin: 80px;
+}
+footer{
+    margin-bottom: 100px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.social-media:hover{
+    color: orangered;
+}
+.copyright{
+    text-align: center;
+}
